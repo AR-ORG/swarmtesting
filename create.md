@@ -32,7 +32,7 @@ After the top two steps, we already have a minimum Swarm cluster includes 3 mana
 Use the management node docker node ls view the cluster.
 
 root@ubuntu:/home/root# docker node ls
-ID                            HOSTNAME            STATUS              AVAILABILITY        MANAGER STATUS      ENGINE VERSION
+ID                            HOSTNAME            STATUS              AVAILABILITY        MANAGER STATUS    ENGINE VERSION
 wc9iinw70yjp1ita06ky5vm8k     instance-1          Ready               Active              Leader              18.09.5
 ryf8t7qdng5ai8lu8adnfew3f     instance-2          Ready               Active                                  18.09.5
 zakh7yyah9txz7y1ofp9n49yk     instance-3          Ready               Active              Reachable           18.09.5
