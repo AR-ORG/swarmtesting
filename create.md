@@ -27,14 +27,12 @@ worker1:~$ docker swarm join \
 This node joined a swarm as a worker
 
 View cluster
-After the top two steps, we already have a minimum Swarm cluster includes 3 management nodes and 1 worker node.
+After the top two steps, we already have a minimum Swarm cluster includes a management node and two working nodes.
 
-Use the management node docker node ls view the cluster.
+Use the management node docker node lsview the cluster.
 
 $ docker node ls
-ID                            HOSTNAME          STATUS            AVAILABILITY       MANAGER STATUS
-
-wc9iinw70yjp1ita06ky5vm8k     instance-1          Ready               Active              Leader              18.09.5
-ryf8t7qdng5ai8lu8adnfew3f     instance-2          Ready               Active                                  18.09.5
-zakh7yyah9txz7y1ofp9n49yk     instance-3          Ready               Active              Reachable           18.09.5
-3a1gn5ink2sd11mu3zh8xzw4y *   ubuntu              Ready               Active              Reachable           18.09.5
+ID                           HOSTNAME  STATUS  AVAILABILITY  MANAGER STATUS
+03g1y59jwfg7cf99w4lt0f662    worker2   Ready   Active
+9j68exjopxe7wfl6yuxml7a7j    worker1   Ready   Active
+dxn1zf6l61qsb1josjja83ngz *  manager   Ready   Active        Leader
