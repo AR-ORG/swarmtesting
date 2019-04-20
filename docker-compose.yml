@@ -2,8 +2,9 @@
 version: "3"
 
 networks:
-  overlay:
-    external: true
+  my-overlay:
+    external:
+      name: my-overlay
 
 services:
   wordpress:
@@ -49,4 +50,4 @@ services:
 volumes:
   db-data:
 networks:
-  overlay:
+  my-overlay:
