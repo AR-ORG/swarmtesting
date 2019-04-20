@@ -24,7 +24,7 @@ worker1:~$ docker swarm join \
     --token SWMTKN-1-49nj1cmql0jkz5s954yi3oex3nedyz0fb0xx14ie39trti4wxv-8vxv8rssmk743ojnwacrr2e7c \
     192.168.99.100:2377
 
-This node joined a swarm as a worker.
+This node joined a swarm as a worker
 
 View cluster
 After the top two steps, we already have a minimum Swarm cluster includes 3 management nodes and 1 worker node.
