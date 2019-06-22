@@ -1,5 +1,8 @@
-Below is a cheatsheet for many of the commands we will toucbase most of these in our exercise
+# Docker labs
 
+Below is a cheatsheet for many of the commands we will touch uppon in the lab.
+
+```bash
 docker build -t friendlyname .              # Create image using this directory's Dockerfile
 
 docker container run -p 4000:80 friendlyname    # Run "friendlyname" mapping port 4000 to 80
